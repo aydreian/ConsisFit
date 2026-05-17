@@ -1,4 +1,7 @@
+Flask
 opencv-python
 mediapipe
+groq
 py4j
 numpy
+werkzeug
