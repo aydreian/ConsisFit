@@ -6,12 +6,12 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Install Python dependencies
-echo "🐍 Installing Python libraries..."
+echo " Installing Python libraries..."
 pip install --upgrade pip
 pip install -r requirements.txt
 
 # Compile Java backend
-echo "☕ Compiling Java Backend via Maven..."
+echo " Compiling Java Backend via Maven..."
 mvn clean compile
 
 echo ""
